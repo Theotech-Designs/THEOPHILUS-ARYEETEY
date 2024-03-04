@@ -1,0 +1,227 @@
+@media (min-width:100px) {
+/* very small devices*/
+
+.image-lides-phone-size img{
+    margin-top: 20px;
+    display: block;
+    margin-left: 70px;
+    width: 50%;
+    margin-bottom: 0;
+    border-radius: 30%;
+    border-color: black;
+}
+    .my-skills{
+        display: grid;  
+        grid-template-columns:1fr; 
+        column-gap: 10px;
+        row-gap: 10px;
+        background-color: rgb(255, 255, 255);
+        padding-top: 50px;
+        margin-bottom: 40px;
+        color: black;
+    
+    }
+
+    .image-lides{
+        width: 2000px;
+        padding: 10px;
+        margin-top: 0;
+        margin-left: 100px;
+        display: none;
+        
+    }
+    
+    .image-lides img{
+    width: 470px;
+    margin-right: 0;
+    margin-top: 80px;
+    transition: width 1s;
+    border-radius: 290px;
+    display: none;
+    }
+
+    footer{
+        padding-bottom: 40PX;
+    }
+}
+
+
+
+@media (min-width:600px) {
+
+    /*medium devices*/
+
+    .image-lides-phone-size img{
+        margin-top: 20px;
+        display: none;
+        width: 70%;
+        border-radius: 30%;
+        border-color: black;
+    }
+
+
+    .image-slides{
+        position: absolute;
+        display: inline-block;
+        left: 50%;
+        top: 7%;
+        width: 30%;
+
+    }
+ 
+    .personal-feature{
+        display: block;
+        grid-template-columns: 1fr 1fr;
+        margin-top: 65px;
+        }
+        
+
+     
+    
+
+    .physicals{
+       display: grid;
+       grid-template-columns: 1fr;
+        font-size: 14px;
+        margin-top: 70px;
+       
+    } 
+
+    h1 .intro{
+        width: 100%;
+    }
+
+    .my-skills{
+        display: grid;  
+        grid-template-columns: 1fr 1fr; 
+        column-gap: 10px;
+        row-gap: 10px;
+        background-color: rgb(255, 255, 255);
+        padding-top: 50px;
+        margin-bottom: 40px;
+        color: black;
+    
+    }
+
+        .edu{
+            position: absolute;
+           
+            color:rgb(255, 254, 253);
+            font-size: 18px;
+            font-weight: 600;
+            margin-bottom: 10px;
+        
+            
+        }
+
+        table{
+            display: table;
+            width:60px;
+            border-collapse: separate;
+            padding-top: 50px;
+            position: relative;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        
+        
+        }
+
+        th{
+            
+               padding: 10px;
+               text-align: center;  
+               margin-left: 0;
+           }
+       
+    } 
+
+
+    /*big devices*/
+    @media (min-width:980px) {
+
+        .image-slides{
+            position: absolute;
+            display: inline-block;
+            left: 53%;
+            top: 7%;
+
+        }
+
+.my-skills{
+    display: grid;  
+    grid-template-columns: 1fr 1fr 1fr; 
+    column-gap: 10px;
+    row-gap: 10px;
+    background-color: rgb(255, 255, 255);
+    padding-top: 50px;
+    margin-bottom: 40px; 
+
+   
+}
+
+.skill-title{
+    display: block;
+    color:rgb(255, 255, 255);
+    font-size: 27px;
+    font-weight: 600;
+}
+
+.yt-video{
+    background-color: rgb(34, 31, 31);
+    height: 368px;
+    margin-top: 9px;
+}
+
+.youtube{
+    height: 368px;
+    width: 100%;
+    
+}
+
+.skills{
+    padding-left: 20px;
+    margin-top: 10px;
+
+}
+
+
+
+
+.edu{
+    position: absolute;
+    left: 30%;
+    color:rgb(255, 255, 255);
+    font-size: 27px;
+    font-weight: 600;
+
+    
+}
+
+
+table{
+    display: table;
+    width: 100%;
+    border-collapse: separate;
+    padding-top: 50px;
+    position: relative;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+
+
+}
+th{
+ width: 99%;
+    padding: 20px;
+    text-align: center;  
+}
+tr, td{
+
+    color: rgb(253, 253, 253);
+    background-color: rgb(26, 26, 23);
+   
+    padding: 40px;
+    text-align: center;
+}    
+        } 
+    
+
